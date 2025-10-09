@@ -1,0 +1,6 @@
+﻿There is only one regular expression, which is [0-9], 
+which takes the range of characters 0-9, meaning 0, 1, ..., 9.
+
+Semantically they are associated with a single digit.
+
+

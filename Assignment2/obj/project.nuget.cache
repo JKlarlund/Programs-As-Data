@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DUbFl6qvUjI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonat\\OneDrive\\Den groenne mappe\\ITU\\SWU 2023-2026\\5. semester\\Programmer som data\\Assignments\\Assignment2\\Assignment2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\fsharp.core\\9.0.303\\fsharp.core.9.0.303.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\fslex.core\\11.3.0\\fslex.core.11.3.0.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\fslexyacc\\11.3.0\\fslexyacc.11.3.0.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\fslexyacc.runtime\\11.3.0\\fslexyacc.runtime.11.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

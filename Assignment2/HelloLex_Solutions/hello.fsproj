@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Hello.fs" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Reference Include="C:\Users\jonat\OneDrive\Den groenne mappe\ITU\SWU 2023-2026\5. semester\Programmer som data\Assignments\Assignment2\ProgramsAsDataCodeE2025\fsharp\FsLexYacc.Runtime.11.3.0\lib\netstandard2.0\FsLexYacc.Runtime.dll"/>
+    </ItemGroup>
+
+</Project>
+

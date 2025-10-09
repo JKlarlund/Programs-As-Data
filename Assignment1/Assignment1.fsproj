@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Ex1CodeFromBook.fs" />
+        <Compile Include="Ex2CodeFromBook.fs" />
+        <Compile Include="Exercise1_1To1_2.fs" />
+        <Compile Include="Exercise2.fs" />
+    </ItemGroup>
+
+</Project>

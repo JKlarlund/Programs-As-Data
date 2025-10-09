@@ -1,0 +1,5 @@
+1) 34 is recognized, because it contains 2 digits, and the parser (regex) requires 1 digit or more.
+
+2) 34.24 is recognized, because it contains 2 digits followed by a dot and followed by 2 more digits.
+   The structure of the parser is such that it takes an optional + / -, then x number of digits, then an optional do   t, followed by x number of digits.
+3) The parser does not recognize ",".

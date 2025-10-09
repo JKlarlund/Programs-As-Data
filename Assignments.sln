@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Assignment1", "Assignment1\Assignment1.fsproj", "{B942F833-9649-4DA6-B8B7-A59FEA481B2E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "trash", "trash\trash.fsproj", "{B3898591-09F5-4B36-B898-74453F78DA56}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Assignment2", "Assignment2\Assignment2.fsproj", "{A2BF5838-C9E5-4CBD-A166-FAB258DBD9BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B942F833-9649-4DA6-B8B7-A59FEA481B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B942F833-9649-4DA6-B8B7-A59FEA481B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B942F833-9649-4DA6-B8B7-A59FEA481B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B942F833-9649-4DA6-B8B7-A59FEA481B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3898591-09F5-4B36-B898-74453F78DA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3898591-09F5-4B36-B898-74453F78DA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3898591-09F5-4B36-B898-74453F78DA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3898591-09F5-4B36-B898-74453F78DA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BF5838-C9E5-4CBD-A166-FAB258DBD9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BF5838-C9E5-4CBD-A166-FAB258DBD9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BF5838-C9E5-4CBD-A166-FAB258DBD9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BF5838-C9E5-4CBD-A166-FAB258DBD9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

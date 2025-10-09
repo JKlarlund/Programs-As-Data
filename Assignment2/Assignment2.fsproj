@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="HelloLex_Solutions\hello.fsl" />
+      <Compile Include="HelloLex_Solutions\hello2.fsl" />
+      <Compile Include="HelloLex_Solutions\hello3.fsl" />
+      <Content Include="HelloLex_Solutions\Exercise1.txt" />
+      <Content Include="HelloLex_Solutions\Exercise2.txt" />
+      <Compile Include="HelloLex_Solutions\hello.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FsLex.Core" Version="11.3.0" />
+      <PackageReference Include="FsLexYacc" Version="11.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="2_4, 2_5\2.5.png" />
+      <Compile Include="2_4, 2_5\Ex2CodeFromBook.fs" />
+      <Compile Include="2_4, 2_5\Exercise2_4.fs" />
+      <Content Include="2_4, 2_5\Machine.class" />
+      <Content Include="2_4, 2_5\is1.txt" />
+      <Content Include="2_4, 2_5\Machine.java" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="2_4, 2_5\bin\Debug\net9.0\" />
+    </ItemGroup>
+
+</Project>

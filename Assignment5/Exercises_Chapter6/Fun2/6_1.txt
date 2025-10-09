@@ -1,0 +1,46 @@
+let add x = 
+  let f y = 
+  x+y 
+    in f 
+  end
+    in let addtwo = add 2
+      in let x = 77 in addtwo 5 
+
+
+
+end
+end
+end
+
+add: x -> y -> x+y
+addtwo: x -> 2 -> x+2
+addtwo 5 -> resolves to 7.
+
+Is the result of the third one as expected?
+Yes, it defines a function add which takes 2 integers and adds them together.
+This is used to define a function addtwo, which calls add with 2, resulting
+in a function taking 1 integer x and then doing x+2. Finally, this is used to
+define the variable x, which is not used but instead doing addtwo with 5, which results in 7.
+Since the declaration & instantiation of x = 77 happens inside the function, it does not relate to
+the x defined by add in the broader scope.
+
+__
+Explain the result of the fourth one
+
+let add x = let f y = x+y in f end
+    in add 2 end
+
+This returns a function requiring one integer y to evaluate.
+Therefore, we get the closure you see below:
+
+val it: HigherFun.value =
+  Closure
+    ("f", "y", Prim ("+", Var "x", Var "y"),
+     [("x", Int 2);
+      ("add",
+       Closure
+         ("add", "x", Letfun ("f", "y", Prim ("+", Var "x", Var "y"), Var "f"),
+          []))])
+          
+
+
